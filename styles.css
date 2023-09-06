@@ -4,6 +4,11 @@ body {
 	font-size: 12px;
 }
 
+p {
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+}
+
 .postcard {
 	background: white;
 	width: 450px;
@@ -19,6 +24,7 @@ body {
 	margin-top: 18px;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-style: oblique;
+	font-size: 30px;
 }
 .postcard-header img {
 	width: 50px;
@@ -31,11 +37,21 @@ body {
 input {
 	border: none;
 	border-bottom: 1px grey solid;
+	color: white;
+	background-color: black;
+	margin-bottom: 3px;
 }
+
 button {
-	background-color: lightgrey;
-	padding: 5px 10px;
+	/*--This is my initial code, but I decided to go with the gradient to make it different--
+	--START--
+	background-color: black;
+	color: white;
+	--END--*/
+	background-image: linear-gradient(grey, white);
+	padding: 10px 15px;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
 }
 .postcard-footer {
 	text-align: center;
